@@ -1,0 +1,57 @@
+Akhila Kante  
++91 8520917607 | Marlapadu , Telangana,  India  akhilakante29@gmail.com  | Clg Id –22C61A052 0 
+         https://www.linkedin.com/in/akhila -kante -3552b4319?  
+ 
+ 
+ 
+Education     
+- B.Tech  – Computer  Science  Mother  Teresa  Institute  of Science  and 
+Technology  CGPA  – 7.8 2026  - Present  
+- Intermediate  (MPC)  Shanthinikethan  Junior  College  Percentage  – 6.1% May  2022 
+- 10th  Class  (SSC)  ZPHS Vemsoor  CGPA  – 10.0%  May  2020 
+Professional  Summary     
+● Motivated  and enthusiastic  student  with  a strong  interest  in technology  and continuous  learning.  Possesses  basic 
+knowledge  of computer  fundamentals  and problem -solving  skills.  Eager  to gain  practical  experience  and grow 
+professionally in an entry -level role.  
+Technical  Skills  
+● Programming  Languages:  Java - Basics,  C - Basics,  Python  
+● Web  Technologies:  HTML,  CSS 
+● Databases:  SQL 
+0 
+Technical  Skills  
+● Communication  & Collaboration:  Excellent  written  and verbal  communication  skills,  with  experience  working  in project 
+teams.  
+● Problem -Solving:  Strong  analytical  and logical  reasoning  abilities  to tackle  complex  challenges.  
+● Adaptability  & Proactivity:  Quick  to learn  new technologies  and eager  to take on new responsibilities.  
+● Leadership  & Time  Management:  Demonstrated  ability  to manage  project  timelines  and work  effectively  toward  a 
+common goal.  
+ 
+Academic  Projects  
+Osteoporosis Risk Prediction  
+● Developed a machine learning –based osteoporosis risk prediction model  using patient clinical data such as age, BMI, 
+gender, and lifestyle factors.  
+● Performed data preprocessing, feature selection, and model training  to classify individuals into low -, medium -, and high -
+risk categories.  
+● Achieved improved prediction accuracy using algorithms like Logistic Regression, Random Forest, and SVM  
+        Cryptocurrency Prediction  
+ 
+● Developed a machine learning –based cryptocurrency price prediction model  using historical market data . 
+● Performed data collection, preprocessing, and feature engineering  on time -series data such as price, volume, and 
+market trends.  
+● Implemented predictive models includ ing Linear Regression, LSTM, Random Forest, and ARIMA  for forecasting price movements.  
+● Visualized trends and predictions using Matplotlib and Seaborn  to support data -driven insight . 
+Certifications  
+● Completed  PROGRAMMING  ESSENTIAL  IN C LANGUAGE  - Cisco  
+● Completed  PYTHON  ESSESNTIAL  1 – Cisco  
+● Completed CLOUD COMPUTING on NPTEL  
+● Completed  BIGDATA  COMPUTING  on NPTEL  
+Interests  
+● Listening  to Music,  Reading  Books,  Playing  Badminton  and Watching  Series.  
+ 
+Declaration  
+● I hereby  declare  that all of the above  furnished  information  is true to the best of my knowledg  
+ 
+ 
+ 
+ 
+Place:  Sathupally                                               Akhila Kante  

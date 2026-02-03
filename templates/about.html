@@ -1,0 +1,133 @@
+{% extends "base.html" %}
+
+{% block title %}About Me - My Portfolio{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <div class="container">
+        <h1>About Me</h1>
+        <p class="breadcrumb">Home > About</p>
+    </div>
+</div>
+
+<section class="about-section">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-profile">
+                <div class="profile-photo">
+                    <img src="{{ url_for('static', filename='images/profile_placeholder.svg') }}" alt="Akhila Kante" class="profile-img">
+                </div>
+                <div class="about-text">
+                    <h2>Hi, I'm <strong>Akhila Kante</strong></h2>
+                    <p>Motivated B.Tech Computer Science student at <strong>Mother Teresa Institute of Science and Technology</strong> (CGPA: 7.8). Passionate about <strong>machine learning</strong>, data analysis, and <strong>web development</strong>. I build practical ML solutions and web apps to solve real problems.</p>
+                    <p><a href="{{ url_for('download', filename='akhila_resume.pdf') }}" class="btn btn-secondary">Download Resume</a></p>
+                    <h3>Focus Areas</h3>
+                    <ul class="about-list">
+                        <li>Machine Learning & Data Analysis</li>
+                        <li>Web Development (HTML, CSS, Python)</li>
+                        <li>Time-series Forecasting & Predictive Modeling</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="about-sidebar">
+                <div class="info-box">
+                    <h3>Quick Facts</h3>
+                    <ul>
+                        <li><strong>Location:</strong> Marlapadu, Telangana, India</li>
+                        <li><strong>Education:</strong> B.Tech — Computer Science (2026 - Present)</li>
+                        <li><strong>Key Projects:</strong> Osteoporosis Risk Prediction; Cryptocurrency Price Prediction</li>
+                        <li><strong>Skills:</strong> Java, C, Python, HTML, CSS, SQL, Scikit-learn, Pandas</li>
+                    </ul>
+                </div>
+
+                <div class="info-box">
+                    <h3>Certifications</h3>
+                    <ul>
+                        <li>PROGRAMMING ESSENTIAL IN C LANGUAGE — Cisco</li>
+                        <li>PYTHON ESSENTIAL 1 — Cisco</li>
+                        <li>CLOUD COMPUTING — NPTEL</li>
+                        <li>BIGDATA COMPUTING — NPTEL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="timeline">
+    <div class="container">
+        <h2 class="section-title">Education</h2>
+        
+        <div class="timeline-item">
+            <div class="timeline-date">2026 - Present</div>
+            <div class="timeline-content">
+                <h3>B.Tech — Computer Science</h3>
+                <p><strong>Mother Teresa Institute of Science and Technology</strong></p>
+                <p>Currently pursuing a B.Tech in Computer Science (CGPA: 7.8).</p>
+            </div>
+        </div>
+        
+        <div class="timeline-item">
+            <div class="timeline-date">May 2022</div>
+            <div class="timeline-content">
+                <h3>Intermediate (MPC)</h3>
+                <p><strong>Shanthinikethan Junior College</strong></p>
+                <p>Percentage – 61%</p>
+            </div>
+        </div>
+        
+        <div class="timeline-item">
+            <div class="timeline-date">May 2020</div>
+            <div class="timeline-content">
+                <h3>10th Class (SSC)</h3>
+                <p><strong>ZPHS Vemsoor</strong></p>
+                <p>CGPA – 10.0</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="projects-highlight">
+    <div class="container">
+        <h2 class="section-title">Highlighted Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Osteoporosis Risk Prediction</h3>
+                <p>Machine learning model to predict osteoporosis risk using clinical features (age, BMI, gender, lifestyle). Includes Logistic Regression, Random Forest, and SVM.</p>
+                <a href="{{ url_for('project_detail', project_id=4) }}" class="btn btn-small">View Details</a>
+            </div>
+            <div class="project-card">
+                <h3>Cryptocurrency Price Prediction</h3>
+                <p>Time-series forecasting of cryptocurrency prices using Linear Regression, LSTM, Random Forest, and ARIMA; results visualized with Matplotlib/Seaborn.</p>
+                <a href="{{ url_for('project_detail', project_id=5) }}" class="btn btn-small">View Details</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="values-section">
+    <div class="container">
+        <h2 class="section-title">My Values</h2>
+        <div class="values-grid">
+            <div class="value-card">
+                <h3>Quality</h3>
+                <p>I believe in writing clean, maintainable code that stands the test of time.</p>
+            </div>
+            <div class="value-card">
+                <h3>Innovation</h3>
+                <p>I stay updated with latest technologies and best practices in the industry.</p>
+            </div>
+            <div class="value-card">
+                <h3>Collaboration</h3>
+                <p>I work effectively with teams and communicate clearly with stakeholders.</p>
+            </div>
+            <div class="value-card">
+                <h3>Reliability</h3>
+                <p>I deliver projects on time and maintain high standards of excellence.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
